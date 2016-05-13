@@ -341,6 +341,33 @@ img #render-prod {
   padding-bottom: 1em;
 }
 
+#mc_embed_signup{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 112, 112);
+  font-family: SA;
+  color: white;
+  font-size: 2em;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+#mc_embed_signup .clear input{
+  color: white;
+  font-size: 1em;
+  background-color: #25AAE1;
+  border-radius: 0.5em;
+  border-style: none;
+  padding: 0.3em;
+  margin: 1em;
+
+}
+
 @media all and (orientation: portrait) {
 .about{
   height: 30vh;
