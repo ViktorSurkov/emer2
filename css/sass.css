@@ -58,7 +58,7 @@
 
 .sticky {
   height: auto;
-  font-size: 14px;
+  font-size: 1em;
   background-color: rgba(255, 255, 255, 0.6)
 }
 
@@ -113,7 +113,6 @@ body {
     background-size: cover;
     display: flex;
     -webkit-flex-direction: column;
-    /* Safari */
     flex-direction: column;
     justify-content: center;
     justify-content: space-around;
@@ -159,6 +158,7 @@ body {
 }
 .header a {
     text-decoration: none;
+    align-self: auto;
 }
 .moto {
     margin: 0;
@@ -168,7 +168,6 @@ body {
     border-style: solid;
     border-width: 3px;
     border-color: #fff;
-    margin-bottom: 10px;
 }
 
 .header h2 {
@@ -255,10 +254,6 @@ img #render-prod {
   font-size: 2.5vw;
   color: white;
 }
-/*.about img{
-  width: 100vw;
-  height: 50vh;
-}*/
 
 .text{
   text-align: right;
@@ -294,7 +289,14 @@ img #render-prod {
   font-size: 1em;
 }
 
+.text-black a{
+  color: black;
+  text-decoration: none;
+}
 
+.text-black a:hover{
+  text-decoration: underline;
+}
 
 .constr{
   background-color: #3A3A3C;
@@ -316,3 +318,31 @@ img #render-prod {
   width: 100vw;
   height: auto;
 }
+
+.classic{
+  margin: 0;
+  background-color: #3A3A3C;
+}
+
+.donate{
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  font-family: SA;
+  color: white;
+  font-weight: lighter;
+  background-color: #3A3A3C;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1em;
+}
+
+@media all and (orientation: portrait) {
+.about{
+  height: 30vh;
+}
+
+ }
