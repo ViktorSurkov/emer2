@@ -2,21 +2,28 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/sass.css">
-        <link rel="stylesheet" href="css/Animate.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/jquery.vide.min.js"></script>
+<link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
 
     <meta charset="utf-8">
     <title>EMER</title>
   </head>
   <body>
-    <div class="nav" class="sticky">
+    <div class="nav" class="sticky" id="navi">
       <img src="img/logoNav.png" alt="logo" />
-      <a href="#home"><p>Home</p></a>
-      <a href="#aboutt"><p>About</p></a>
-      <a href="#render"><p>How</p></a>
-      <a href="#constrr"><p>Benefits</p>
-      <a href="#conta"><p class="cont">Contacts</p></a>
+      <div id="hom"><a href="#home"><p>Home</p></a></div>
+      <div id="ab"><a href="#aboutt"><p>About</p></a></div>
+      <div id="ren"><a href="#render"><p>How</p></a></div>
+      <div id="co"><a href="#constrr"><p>Benefits</p></a></div>
+      <div id="con"><a href="#conta"><p class="cont">Contacts</p></a></div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="VWD5N8SK9LHX6">
+      <input id='don' type="image" src="img/Donate_button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
     </div>
 
     <div class="header" id="buttonMore">
@@ -30,25 +37,27 @@
         <h1>Make your ride safe</h1>
       </div>
       </div>
-      <a href="#pre"><div class="buttonMore">
-        <h2>Preorder</h2>
+      <a href="#aboutt"><div class="buttonMore">
+        <h2>More</h2>
       </div></a>
     </div>
     <div class="about" id='aboutt'>
-      <h1>Life Saving</h1>
-      <div class="content">
-        <div class="stats">
-          <ul>
-            <li>8 out of 10 motorcycles get into car-accidents</li>
-            <li>40 % are injured</li>
-            <li>4 600 riders each die only in US </li>
-          </ul>
+      <!-- <img src="img/bgAbout1.jpg" alt="" /> -->
+      <div class="text">
+
+        <div class="text-red">
+          <b>8 out of 10</b> motorcycles get into car-accidents<br>
+          <b>40%</b> are injured <br>
+          <b>4 600</b> riders die only in US
         </div>
-        <div class="sol">
-          Our solution was made to give a chance.
-          Automatic ambulance call will provide valuable extra time space.
-          And this “golden hour” saves lives.
+
+        <div class="text-black">
+          Our solution was made to give a chance. <br>
+          Automatic ambulance call <br>
+          will provide valuable extra time space. <br>
+          And this <a href="https://en.wikipedia.org/wiki/Golden_hour_(medicine)" target="_blank">golden hour</a> save lives.
         </div>
+
       </div>
     </div>
 
@@ -71,28 +80,24 @@
       <img src="img/con.png" alt="construction" />
     </div>
 
-    <div class="subscribe" id="pre">
-        <h1>Subscribe for preorders</h1>
-        <input type="text" name="name" value="" placeholder="Enter your email">
-        <input type="button" name="name" value="Submit">
+    <div class="classic">
+      <img src="img/classic.jpg" alt="" />
     </div>
 
+
     <div class="contacts" id="conta">
-      <h1>contacts</h1>
+      <h2>contacts</h2>
       <div class="lala">
         E: info@emerbelt.me<br>
         P: +38 (096) 999-33-88<br>
       </div>
       <div class="social">
-        <a href="https://vk.com/viktor__surkov" target="_blank"><img src="img/vk.png" alt="vk"></a>
-        <a href="http://facebook.com/IkatteiruPanda" target="_blank"><img src="img/fb.png" alt="fb"></a>
+        <a href="http://vk.com/emerbelt" target="_blank"><img src="img/vk.png" alt="vk"></a>
+        <a href="https://www.facebook.com/emerbelt/" target="_blank"><img src="img/fb.png" alt="fb"></a>
         <a href="https://plus.google.com/u/0/102890245450491519157?hl=en" target="_blank"><img src="img/g+.png" alt="g+"></a>
-        <a href="https://www.instagram.com/v.surkov/" target="_blank"><img src="img/inst.png" alt="inst"></a>
       </div>
     </div>
 
-    <!-- <script type="text/javascript" src="js/jquery-2.2.3.js"></script> -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
   </body>
 </html>
