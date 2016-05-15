@@ -352,12 +352,13 @@ img #render-prod {
   color: white;
   font-size: 2em;
   justify-content: space-around;
+  flex-direction: column;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
-
 }
-#mc_embed_signup .clear input{
+
+#mc_embed_signup input[submit]{
   color: white;
   font-size: 1em;
   background-color: #25AAE1;
