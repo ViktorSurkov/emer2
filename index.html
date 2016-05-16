@@ -1,136 +1,176 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" href="css/sass.css">
-  <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
-  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/sass.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <meta name="description" content="Emer. Make your ride safe.">
+    <meta name="keywords" content="Emer, emer, Emerbelt, emerbelt, Surkov, Viktor, Vall, Eugeniy, Vlad, Velychko, lviv, sturtup, ukraine">
+    <meta charset="utf-8">
+    <title>EMER</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <meta charset="utf-8">
-  <title>EMER</title>
+  ga('create', 'UA-77770194-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
+
 <body>
-  <div class="nav" class="sticky" id="navi">
-    <img src="img/logoNav.png" alt="logo" />
-    <div id="hom"><a href="#home"><p>Home</p></a></div>
-    <div id="ab"><a href="#aboutt"><p>About</p></a></div>
-    <div id="ren"><a href="#render"><p>How</p></a></div>
-    <div id="co"><a href="#constrr"><p>Benefits</p></a></div>
-    <div id="con"><a href="#conta"><p class="cont">Contacts</p></a></div>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="VWD5N8SK9LHX6">
-      <input id='don' type="image" src="img/Donate_button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-
-  </div>
-
-  <div class="header" id="buttonMore">
-    <div class="video" data-vide-bg="img/bg" data-vide-options="loop: true, muted: true, resizing: false">
-
-    </div>
-    <div class="" id="home">
-
-      <img src="img/EMER_logo_white.png" alt="EMER_logo_white" />
-      <div class="moto">
-        <h1>Make your ride safe</h1>
-      </div>
-    </div>
-    <a href="#aboutt"><div class="buttonMore">
-      <h2>More</h2>
-    </div></a>
-  </div>
-  <div class="about" id='aboutt'>
-    <div class="text">
-
-      <div class="text-red">
-        <b>8 out of 10</b> motorcycles get into car-accidents<br>
-        <b>40%</b> are injured <br>
-        <b>4 600</b> riders die only in US
-      </div>
-
-      <div class="text-black">
-        Our solution was made to give a chance. <br>
-        Automatic ambulance call <br>
-        will provide valuable extra time space. <br>
-        And this <a href="https://en.wikipedia.org/wiki/Golden_hour_(medicine)" target="_blank"><strong>golden hour</strong></a> save lives.
-      </div>
+    <div class="nav sticky" id="navi">
+        <img src="img/logoNav.png" alt="logo" />
+        <div id="hom">
+            <a href="#home">
+                <p>Home</p>
+            </a>
+        </div>
+        <div id="ab">
+            <a href="#aboutt">
+                <p>About</p>
+            </a>
+        </div>
+        <div id="ren">
+            <a href="#render">
+                <p>How</p>
+            </a>
+        </div>
+        <div id="co">
+            <a href="#constrr">
+                <p>Benefits</p>
+            </a>
+        </div>
+        <div id="con">
+            <a href="#conta">
+                <p class="cont">Contacts</p>
+            </a>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="VWD5N8SK9LHX6">
+            <input class='don' type="image" src="img/Donate_button.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
 
     </div>
-  </div>
 
+    <div class="header" id="buttonMore">
+        <div class="video" data-vide-bg="img/bg" data-vide-options="loop: true, muted: true, resizing: false">
 
-  <div class="render" id="render">
-    <img id='render-prod' src="img/0.jpg" alt="render" />
-    <img id='render-p' src="img/0.jpg" alt="render" />
-    <img id='img1' src="img/1.png" alt="1" />
-    <img id='img2' src="img/2.png" alt="2" />
-    <img id='img3' src="img/3.png" alt="3" />
-    <img id='img4' src="img/4.png" alt="4" />
-    <img id='img5' src="img/5.png" alt="5" />
-    <img id='img6' src="img/6.png" alt="6" />
-    <img id='img7' src="img/7.png" alt="7" />
-    <img id='text' src="img/text.png" alt="text" />
+        </div>
+        <div class="" id="home">
 
-  </div>
-
-  <div class="constr" id="constrr">
-    <img src="img/con.png" alt="construction" />
-  </div>
-
-  <div class="classic">
-    <img src="img/classic.jpg" alt="" />
-  </div>
-
-  <div class="donate">
-    <p>
-      Your donation will help us <br>
-      to produce our product <br>
-      and <b>save lives</b>
-    </p>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="VWD5N8SK9LHX6">
-      <input id='don' type="image" src="img/Donate_button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img src="img/EMER_logo_white.png" alt="EMER_logo_white" />
+            <div class="moto">
+                <h1>Make your ride safe</h1>
+            </div>
+        </div>
+        <a href="#aboutt">
+            <div class="buttonMore">
+                <h2> More </h2>
+            </div>
+        </a>
     </div>
-  </form>
+    <div class="about" id='aboutt'>
+        <div class="text">
 
-  <div id="mc_embed_signup">
+            <div class="text-red">
+                <b>8 out of 10</b> motorcycles get into car-accidents
+                <br>
+                <b>40%</b> are injured
+                <br>
+                <b>4 600</b> riders die only in US
+            </div>
 
-    <form class="send_form" method="POST" action="mail.php">
-      <input name="email"/>
-      <input type="submit"/>
-    </form>
-  </div>
+            <div class="text-black">
+                Our solution was made to give a chance.
+                <br> Automatic ambulance call
+                <br> will provide valuable extra time space.
+                <br> And this <a href="https://en.wikipedia.org/wiki/Golden_hour_(medicine)" target="_blank"><strong>golden hour</strong></a> save lives.
+            </div>
 
-  <div class="contacts" id="conta">
-    <h2>contacts</h2>
-    <div class="lala">
-      E: info@emerbelt.me<br>
-      P: +38 (096) 999-33-88<br>
+        </div>
     </div>
-    <div class="social">
-      <a href="http://vk.com/emerbelt" target="_blank"><img src="img/vk.png" alt="vk"></a>
-      <a href="https://www.facebook.com/emerbelt/" target="_blank"><img src="img/fb.png" alt="fb"></a>
-      <a href="https://plus.google.com/u/0/102890245450491519157?hl=en" target="_blank"><img src="img/g+.png" alt="g+"></a>
-    </div>
-  </div>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/jquery.vide.min.js"></script>
-  <script type="text/javascript" src="js/jquery_form.js"></script>
-  <script type="text/javascript" src="js/js.js"></script>
-  <script> 
-    $(".send_form").on('submit', function() { 
-      $(this).ajaxSubmit({ 
-        statusCode: { 
-          200: function() { 
-            alert("Ваше повідомлення відправлено!");
-          } 
-        } 
-      }); 
-      return false; 
-    }); 
-  </script>
+
+    <div class="render" id="render">
+        <img id='render-prod' src="img/0.jpg" alt="render" />
+        <img id='render-p' src="img/0.jpg" alt="render" />
+        <img id='img1' src="img/1.png" alt="1" />
+        <img id='img2' src="img/2.png" alt="2" />
+        <img id='img3' src="img/3.png" alt="3" />
+        <img id='img4' src="img/4.png" alt="4" />
+        <img id='img5' src="img/5.png" alt="5" />
+        <img id='img6' src="img/6.png" alt="6" />
+        <img id='img7' src="img/7.png" alt="7" />
+        <img id='text' src="img/text.png" alt="text" />
+
+    </div>
+
+    <div class="constr" id="constrr">
+        <img src="img/con.png" alt="construction" />
+    </div>
+
+    <div class="classic">
+        <img src="img/classic.jpg" alt="" />
+    </div>
+
+    <div class="donate">
+        <p>
+            Your donation will help us
+            <br> to produce our product
+            <br> and <b>save lives</b>
+        </p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="VWD5N8SK9LHX6">
+            <input class='don' type="image" src="img/Donate_button.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        </form>
+    </div>
+    <div class="contacts">
+        <div class="all">
+            <div class="preor">
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="//emerbelt.us13.list-manage.com/subscribe/post?u=83db35e8238285696e677f5bc&amp;id=98381d1e10" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <p>For preorders please subscribe. </p>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_83db35e8238285696e677f5bc_98381d1e10" tabindex="-1" value="">
+                            </div>
+                            <div class="clear">
+                                <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+            </div>
+            <div class="sosial">
+                <div class="s">
+                    <a href="https://www.facebook.com/emerbelt/" target="_blank"><img src="img/FB.png" alt=""></a>
+                    <a href="https://plus.google.com/u/0/102890245450491519157" target="_blank"><img src="img/G+.png" alt=""></a>
+                    <a href="https://twitter.com/emerbelt" target="_blank"><img src="img/T.png" alt=""></a>
+                </div>
+                <a href="mailto:info@emerbelt.me?subject=Help">info@emerbelt.me</a> +38(096)999-33-88
+            </div>
+        </div>
+        <div class="cop">
+            <p>Copyright &#169; 2016. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/js.js"></script>
+
 </body>
+
 </html>
