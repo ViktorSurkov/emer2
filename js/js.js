@@ -11,7 +11,7 @@ $(document).ready(function(){
    $("#hom").on("click","a", function (event) {
        event.preventDefault();
        var id  = $(this).attr('href'),
-           top = $("#home").offset().top;
+           top = $("#buttonMore").offset().top;
        $('body,html').animate({scrollTop: top}, 1500);
    });
 });
@@ -48,7 +48,7 @@ $(document).ready(function(){
    $("#con").on("click","a", function (event) {
        event.preventDefault();
        var id  = $(this).attr('href'),
-           top = $("#conta").offset().top;
+           top = $("#contacts").offset().top;
        $('body,html').animate({scrollTop: top}, 1500);
    });
 });
